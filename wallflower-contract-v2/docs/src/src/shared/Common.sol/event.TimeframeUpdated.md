@@ -1,0 +1,12 @@
+# TimeframeUpdated
+[Git Source](https://github.com/titlesnyc/wallflower-contract-v2/blob/3def97b53d8f2e1ca0a59e2027614383ba598af9/src/shared/Common.sol)
+
+Emitted when a Work's open and close times are updated.
+
+
+```solidity
+event TimeframeUpdated(
+    address indexed edition, uint256 indexed tokenId, uint64 opensAt, uint64 closesAt
+);
+```
+
